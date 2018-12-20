@@ -15,8 +15,8 @@ ReactDOM.render(
     <Provider store={store}>
         <Router history={history}>
             <Switch>
-                <Route exact string path="/" component={Home}/>
-                <Route exact string path="/anotherPage" component={AnotherPage}/>
+                <Route exact string path="/react-app-lab5/" component={Home}/>
+                <Route exact string path="/react-app-lab5/anotherPage" component={AnotherPage}/>
             </Switch>
         </Router>
     </Provider>,
