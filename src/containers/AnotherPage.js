@@ -24,7 +24,7 @@ class AnotherPage extends React.Component {
         <Row className="col-sm-11" style={{display: 'flex', margin: '20px auto 20px auto'}}>
             <Col sm={{size: 12}}>
                 <Button className="float-right" size="lg" color="primary"
-                    onClick={e => history.push("/")}>Home Page</Button>
+                    onClick={e => history.push("/react-app-lab5/")}>Home Page</Button>
             </Col>
             <Col sm={{size: 6}}>
                 <h2>Followers:</h2>

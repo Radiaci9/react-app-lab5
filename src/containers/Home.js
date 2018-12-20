@@ -17,7 +17,7 @@ class Home extends React.Component {
         <Row className="col-sm-11" style={{display: 'flex', margin: '20px auto 20px auto'}}>
             <Col sm={{size: 12}}>
                 <Button className="float-right" size="lg" color="primary"
-                    onClick={e => history.push("/anotherPage")}>Page Repositories and Followers</Button>
+                    onClick={e => history.push("/react-app-lab5/anotherPage")}>Page Repositories and Followers</Button>
             </Col>
             <Col sm={{size: 12}} md={{size: 'auto'}} hd={{size: 3}}>
                 <UserInfo user={this.props.user}/>
